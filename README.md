@@ -66,6 +66,23 @@ As of version 1.4.0 the explorer defaults to cluster mode, forking an instance o
 To stop the cluster you can use
 
     npm stop
+    
+### Run Explorer in background
+
+Install tmux:
+
+    sudo apt install tmux
+    
+Enter Explorer directoy and run tmux
+
+    cd /path/to/explorer
+    tmux
+    npm start
+    ctrl+b+d
+    
+Check the explorer url to see it running.
+
+More details on [TMUX](https://docs.oracle.com/cd/E86824_01/html/E54763/tmux-1.html)
 
 ### Syncing databases with the blockchain
 
