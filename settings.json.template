@@ -5,15 +5,15 @@
 */
 {
   // name your instance!
-  "title": "IQUIDUS",
+  "title": "COIN Explorer",
 
   "address": "127.0.0.1:3001",
 
   // coin name
-  "coin": "Darkcoin",
+  "coin": "Xcoin",
 
   // coin symbol
-  "symbol": "DRK",
+  "symbol": "X",
 
   // logo
   "logo": "/images/logo.png",
@@ -26,16 +26,16 @@
   //     Cerulean, Cosmo, Cyborg, Darkly, Flatly, Journal, Lumen, Paper,
   //     Readable, Sandstone, Simplex, Slate, Spacelab, Superhero, United, Yeti
   // theme (see /public/themes for available themes)
-  "theme": "Cyborg",
+  "theme": "Spacelab",
 
   // port to listen for requests on.
   "port" : 3001,
 
   // database settings (MongoDB)
   "dbsettings": {
-    "user": "iquidus",
-    "password": "3xp!0reR",
-    "database": "explorerdb",
+    "user": "user_COIN",
+    "password": "pass_COIN",
+    "database": "explorer_COIN",
     "address": "localhost",
     "port": 27017
   },
@@ -47,9 +47,9 @@
   // wallet settings
   "wallet": {
     "host": "localhost",
-    "port": 9332,
-    "user": "darkcoinrpc",
-    "pass": "123gfjk3R3pCCVjHtbRde2s5kzdf233sa"
+    "port": RPCPORT,
+    "user": "RPCUSER",
+    "pass": "RPCPASSWORD"
   },
 
   // confirmations
@@ -61,7 +61,7 @@
   // menu settings
   "display": {
     "api": true,
-    "markets": true,
+    "markets": false,
     "richlist": true,
     "twitter": true,
     "facebook": false,
@@ -90,7 +90,7 @@
   //supported markets: bittrex, poloniex, yobit, empoex, bleutrade, cryptopia, ccex
   //default market is loaded by default and determines last price in header
   "markets": {
-    "coin": "JBS",
+    "coin": "COIN",
     "exchange": "BTC",
     "enabled": ["bittrex"],
     "cryptopia_id": "1658",
@@ -115,7 +115,7 @@
   },
 
   // twitter, facebook, googleplus
-  "twitter": "iquidus",
+  "twitter": "btcltcdigger",
   "facebook": "yourfacebookpage",
   "googleplus": "yourgooglepluspage",
 
