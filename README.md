@@ -118,6 +118,9 @@ sync.js (located in scripts/) is used for updating the local databases. This scr
     */2 * * * * cd /path/to/explorer && /usr/bin/nodejs scripts/sync.js market > /dev/null 2>&1
     */5 * * * * cd /path/to/explorer && /usr/bin/nodejs scripts/peers.js > /dev/null 2>&1
 
+
+NOTE: It's recommended you do sync.js index reindex and then sync.js index upddate
+
 ### Wallet
 
 Iquidus Explorer is intended to be generic so it can be used with any wallet following the usual standards. The wallet must be running with atleast the following flags
