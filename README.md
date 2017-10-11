@@ -17,6 +17,9 @@ An open source block explorer written in node.js.
 *  mongodb 2.6.x
 *  *coind
 
+
+NOTE: Replace COIN with Ticker of your coin,
+
 ### Create database
 
 Enter MongoDB cli:
@@ -25,15 +28,15 @@ Enter MongoDB cli:
 
 Create databse:
 
-    > use explorerdb
+    > use explorer_COIN
 
 Create user with read/write access:
 
-    > db.createUser( { user: "iquidus", pwd: "3xp!0reR", roles: [ "readWrite" ] } )
+    > db.createUser( { user: "user_COIN", pwd: "pass_COIN", roles: [ "readWrite" ] } )
 
 *note: If you're using mongo shell 2.4.x, use the following to create your user:
 
-    > db.addUser( { user: "username", pwd: "password", roles: [ "readWrite"] })
+    > db.addUser( { user: "user_COIN", pwd: "pass_COIN", roles: [ "readWrite"] })
 
 ### Get the source
 
