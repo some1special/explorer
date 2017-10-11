@@ -18,7 +18,8 @@ An open source block explorer written in node.js.
 *  *coind
 
 
-NOTE: Replace COIN with Ticker of your coin,
+NOTE: Replace COIN with Ticker of your coin. 
+Example:  user_BTC, pass_BTC, explorer_BTC
 
 ### Create database
 
