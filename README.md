@@ -1,5 +1,7 @@
-CryptoService Explorer
-*Fork of Iquidus Explorer - 1.6.1*
+
+# CryptoService Explorer
+
+_Fork of Iquidus Explorer - 1.6.1_
 ================
 
 An open source block explorer written in node.js.
