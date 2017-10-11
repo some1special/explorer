@@ -45,7 +45,7 @@ Create user with read/write access:
 
 ### Configure
 
-    cp ./settings.json.template ./settings.json
+    mv ./settings.json.template ./settings.json
 
 *Make required changes in settings.json*
 
@@ -103,8 +103,9 @@ Iquidus Explorer is intended to be generic so it can be used with any wallet fol
 
 ### Donate
 
-    BTC: 168hdKA3fkccPtkxnX8hBrsxNubvk4udJi
-    JBS: JZp9893FMmrm1681bDuJBU7c6w11kyEY7D
+    BTC: 155DP2bt2iXm9sBDSCNWeWfNVTyjZJMXbg
+    ETH: 0x6b5E8a38DEBb1C02E9fe852c2986D78b52877EAb
+    WAVES: 3P7rhkSSS32XmE85PrAzDhKf7ZvQPN7612V
 
 ### Known Issues
 
