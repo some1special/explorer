@@ -43,7 +43,7 @@ Create user with read/write access:
 
 ### Get the source
 
-    git clone https://github.com/iquidus/explorer explorer
+    git clone https://github.com/some1special/explorer.git explorer
 
 ### Install node modules
 
